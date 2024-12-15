@@ -56,48 +56,77 @@ class MainLayout extends StatelessWidget {
                 ),
               ))
           : Row(
-            children: [
-              Expanded(
-                flex: 2,
-                child: Stack(children: [
-                  if(value.selectedScreen == 1)...{
-                    ListView.builder(itemCount: value.plateModelData.length,itemBuilder: (context,index){
-                      return ItemSelecter(data: value.plateModelData[index].dataMain!,name: value.plateModelData[index].name!,onClick: (){
-                        value.selectedPlate = value.plateModelData[index];
-                        value.showResultPlate = false;
-                        value.setState();
-                        //value.showPlate();
-                      },);
-                    })
-                  },
-                  if(value.selectedScreen == 3)...{
-                    ListView.builder(itemCount: value.tyreModelData.length,itemBuilder: (context,index){
-                      return ItemSelecter(data: value.tyreModelData[index].dataMain!,name: value.tyreModelData[index].name!,onClick: (){
-                        value.selectedTyre = value.tyreModelData[index];
-                        value.showResultTyre = false;
-                        value.setState();
-                        //value.showPlate();
-                      },);
-                    })
-                  },
-                  if(value.selectedScreen == 2)...{
-                    ListView.builder(itemCount: value.carModelData.length,itemBuilder: (context,index){
-                      return ItemSelecter(data: value.carModelData[index].dataMain!,name: value.carModelData[index].name!,onClick: (){
-                        value.selectedCar = value.carModelData[index];
-                        value.showResultCar = false;
-                        value.setState();
-                        //value.showPlate();
-                      },);
-                    })
-                  }
-                ],),
-              ),
-              Expanded(
-                flex: 5,
-                child: getController(context),
-              )
-            ],
-          );
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Stack(
+                    children: [
+                      if (value.selectedScreen == 1) ...{
+                        Container(
+                            padding: const EdgeInsets.only(left: 5, right: 3),
+                            child: ListView.builder(
+                                itemCount: value.plateModelData.length,
+                                itemBuilder: (context, index) {
+                                  return ItemSelecter(
+                                    data: value.plateModelData[index].dataMain!,
+                                    name: value.plateModelData[index].name!,
+                                    onClick: () {
+                                      value.selectedPlate =
+                                          value.plateModelData[index];
+                                      value.showResultPlate = false;
+                                      value.setState();
+                                      //value.showPlate();
+                                    },
+                                  );
+                                }))
+                      },
+                      if (value.selectedScreen == 3) ...{
+                        Container(
+                            padding: const EdgeInsets.only(left: 5, right: 3),
+                            child: ListView.builder(
+                                itemCount: value.tyreModelData.length,
+                                itemBuilder: (context, index) {
+                                  return ItemSelecter(
+                                    data: value.tyreModelData[index].dataMain!,
+                                    name: value.tyreModelData[index].name!,
+                                    onClick: () {
+                                      value.selectedTyre =
+                                          value.tyreModelData[index];
+                                      value.showResultTyre = false;
+                                      value.setState();
+                                      //value.showPlate();
+                                    },
+                                  );
+                                }))
+                      },
+                      if (value.selectedScreen == 2) ...{
+                        Container(
+                            padding: const EdgeInsets.only(left: 5, right: 3),
+                            child: ListView.builder(
+                                itemCount: value.carModelData.length,
+                                itemBuilder: (context, index) {
+                                  return ItemSelecter(
+                                    data: value.carModelData[index].dataMain!,
+                                    name: value.carModelData[index].name!,
+                                    onClick: () {
+                                      value.selectedCar =
+                                          value.carModelData[index];
+                                      value.showResultCar = false;
+                                      value.setState();
+                                      //value.showPlate();
+                                    },
+                                  );
+                                }))
+                      }
+                    ],
+                  ),
+                ),
+                Expanded(
+                  flex: 5,
+                  child: getController(context),
+                )
+              ],
+            );
     });
   }
 }

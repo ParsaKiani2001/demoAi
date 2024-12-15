@@ -1,0 +1,63 @@
+[
+  {
+    "file": "images/car/1.jpg",
+    "resultFile": "images/car/1.jpgr.jpg",
+    "result": "Scania",
+    "score" : "95.78",
+    "time": "41.42",
+    "allScores" : [4.2596176e-14,2.0285308e-11,3.0551613e-16,8.2462294e-16,4.3565760e-17,7.9501826e-18,2.1591979e-16,1.0000000e+00,1.1431388e-11]
+  },
+  {
+    "file": "images/car/2.jpg",
+    "resultFile": "images/car/2.jpgr.jpg",
+    "result": "Benz-old",
+    "score" : "97.38",
+    "time": "37.15",
+    "allScores" : [6.0649419e-22,97.38,5.3087242e-19,7.1246338e-15,1.6609775e-19,5.3730427e-12,1.3474889e-11,6.1627671e-14,3.2330665e-16]
+  },
+  {
+    "file": "images/car/3.jpg",
+    "resultFile": "images/car/3.jpgr.jpg",
+    "result": "Scania",
+    "score" : "84.58",
+    "time": "35.41",
+    "allScores" : [1.2721616e-14,2.6076627e-11,3.0205919e-13,5.4118921e-15,6.8813077e-18,
+      1.7037915e-15,4.9581117e-22,84.58,7.0570177e-13]
+  },
+  {
+    "file": "images/car/4.jpg",
+    "resultFile": "images/car/4.jpgr.jpg",
+    "result": "FAV",
+    "score" : "87.18",
+    "time": "39.13",
+    "allScores" : [4.6752564e-19,1.8093940e-13,2.4939649e-11,87.18,3.0393917e-13,
+      1.5545640e-14,6.4961941e-10,5.4916969e-12,9.6577097e-13]
+  },
+  {
+    "file": "images/car/5.jpg",
+    "resultFile": "images/car/5.jpgr.jpg",
+    "result": "Kamaz",
+    "score" : "93.51",
+    "time": "32.43",
+    "allScores" : [2.3714652e-12,1.8625171e-12,6.9872873e-14,9.3584296e-17,93.51,
+      1.2546980e-14,1.4032507e-14,9.2587418e-20,3.9639621e-13]
+  },
+  {
+    "file": "images/car/6.jpg",
+    "resultFile": "images/car/6.jpgr.jpg",
+    "result": "Volvo",
+    "score" : "79.78",
+    "time": "32.89",
+    "allScores" : [8.3528329e-07,2.0828969e-08,6.3692710e-08,1.3588664e-08,1.5414225e-08,
+      6.5008200e-11,3.9964928e-07,5.1143572e-05,79.78]
+  },
+  {
+    "file": "images/car/7.jpg",
+    "resultFile": "images/car/7.jpgr.jpg",
+    "result": "Scania",
+    "score" : "93.43",
+    "time": "33.24",
+    "allScores" : [7.8368833e-16,1.3401429e-11,7.8248785e-15,4.3385527e-15,2.1414739e-14,
+      6.1621812e-17,2.0193891e-19,93.43,2.9417198e-12]
+  }
+]

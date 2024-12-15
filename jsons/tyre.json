@@ -1,0 +1,82 @@
+[
+  {
+    "file": "images/tyre/1.jpg",
+    "encore": "images/tyre/1e.jpg",
+    "result": "images/tyre/1res.jpg",
+    "care": "67.61",
+    "type": "عادی",
+    "time": "103ms"
+  },
+  {
+    "file": "images/tyre/2.jpg",
+    "encore": "images/tyre/2e.jpg",
+    "result": "images/tyre/2res.jpg",
+    "care": "40.61",
+    "type": "عادی",
+    "time": "113ms"
+  },
+  {
+    "file": "images/tyre/3.jpg",
+    "encore": "images/tyre/3e.jpg",
+    "result": "images/tyre/3res.jpg",
+    "care": "54.61",
+    "type": "عاج کوتاه",
+    "time": "124ms"
+  },
+  {
+    "file": "images/tyre/4.jpg",
+    "encore": "images/tyre/4e.jpg",
+    "result": "images/tyre/4res.jpg",
+    "care": "84.61",
+    "type": "عادی",
+    "time": "98ms"
+  },
+  {
+    "file": "images/tyre/5.jpg",
+    "encore": "images/tyre/5e.jpg",
+    "result": "images/tyre/5res.jpg",
+    "care": "41.32",
+    "type": "عاج کوتاه",
+    "time": "156ms"
+  },
+  {
+    "file": "images/tyre/6.jpg",
+    "encore": "images/tyre/6e.jpg",
+    "result": "images/tyre/6res.jpg",
+    "care": "34.21",
+    "type": "عادی",
+    "time": "123ms"
+  },
+  {
+    "file": "images/tyre/7.jpg",
+    "encore": "images/tyre/7e.jpg",
+    "result": "images/tyre/7res.jpg",
+    "care": "35.61",
+    "type": "عادی",
+    "time": "142ms"
+  },
+  {
+    "file": "images/tyre/8.jpg",
+    "encore": "images/tyre/8e.jpg",
+    "result": "images/tyre/8res.jpg",
+    "care": "56.71",
+    "type": "عادی",
+    "time": "163ms"
+  },
+  {
+    "file": "images/tyre/9.jpg",
+    "encore": "images/tyre/9e.jpg",
+    "result": "images/tyre/9res.jpg",
+    "care": "93.31",
+    "type": "عادی",
+    "time": "173ms"
+  },
+  {
+    "file": "images/tyre/10.jpg",
+    "encore": "images/tyre/10e.jpg",
+    "result": "images/tyre/10res.jpg",
+    "care": "43.61",
+    "type": "عاج کوتاه",
+    "time": "183ms"
+  }
+]

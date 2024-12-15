@@ -1,0 +1,58 @@
+[
+  {
+    "file": "images/car/1.jpg",
+    "result": "images/plate/1res.jpg",
+    "care": "78.23",
+    "time": "24.5 ms",
+    "plate-code": "24-a-378-48",
+    "name" : "1.jpg"
+  },
+  {
+    "file": "images/car/2.jpg",
+    "result": "images/plate/2res.jpg",
+    "care": "87.54",
+    "time": "82.13 ms",
+    "plate-code": "48-a-648-72",
+    "name" : "2.jpg"
+  },
+  {
+    "file": "images/car/3.jpg",
+    "result": "images/plate/3res.jpg",
+    "care": "73.21",
+    "time": "92.52 ms",
+    "plate-code": "79-a-711-62",
+    "name" : "3.jpg"
+  },
+  {
+    "file": "images/car/4.jpg",
+    "result": "images/plate/4res.jpg",
+    "care": "69.24",
+    "plate-code": "61-a-679-44",
+    "time": "76.32 ms",
+    "name" : "4.jpg"
+  },
+  {
+    "file": "images/car/5.jpg",
+    "result": "images/plate/5res.jpg",
+    "care": "68.32",
+    "plate-code": "41-a-992-62",
+    "time": "98.42 ms",
+    "name" : "5.jpg"
+  },
+  {
+    "file": "images/car/6.jpg",
+    "result": "images/plate/6res.jpg",
+    "care": "92.15",
+    "time": "12.78 ms",
+    "plate-code": "27-a-973-48",
+    "name" : "6.jpg"
+  },
+  {
+    "file": "images/car/7.jpg",
+    "result": "images/plate/7res.jpg",
+    "care": "81.24",
+    "time": "42.35 ms",
+    "plate-code": "72-a-922-73",
+    "name" : "7.jpg"
+  }
+]
